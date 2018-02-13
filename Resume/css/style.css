@@ -4,6 +4,18 @@ address{
 }
 
 p{
-  background-color: yellow ;
-  color: black;
+  text-align: center;
+  font-style: oblique;
+}
+
+.h1 {
+  text-align: center;
+  background-color: #aa3434 ;
+  color: white;
+  font-size: x-large ;
+  font-weight: 900 ;
+}
+
+#img {
+text-align: center;
 }
