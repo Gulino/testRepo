@@ -15,7 +15,7 @@ a:hover {
   color: #aa3434 ;
 }
 
-p{
+#p{
   text-align: center;
   font-style: oblique;
 }
@@ -27,6 +27,18 @@ p{
   font-size: x-large ;
   font-weight: 900 ;
   font-family: 'Roboto Mono', monospace;
+}
+
+.h2 {
+  font-family: 'Oswald', sans-serif;
+}
+
+.h3{
+  text-decoration: underline;
+}
+
+.h4{
+font-style: italic;
 }
 
 #img {
@@ -41,4 +53,8 @@ table {
 
 th{
   border: 1px solid black;
+}
+
+ul.bullet{
+  list-style-type: circle;
 }
