@@ -31,6 +31,8 @@ a:hover {
 
 .h2 {
   font-family: 'Oswald', sans-serif;
+  color: white;
+  background-color: #aa3434
 }
 
 .h3{
@@ -57,4 +59,8 @@ th{
 
 ul.bullet{
   list-style-type: circle;
+}
+
+.p{
+  font-weight: bold;
 }
