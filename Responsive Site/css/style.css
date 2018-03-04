@@ -1,11 +1,16 @@
-.wrapper {
+.container {
   display: grid;
-  grid-template-columns: repeat(12, [col-start] 1fr);
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   grid-gap: 20px;
+  align-items: stretch;
+}
 
-.ul {
-       list-style: none;
-       margin: 0;
-       padding: 0;
+.box {
+  max-width: 100%;
 
-       
+}
+
+img {
+  width:200px;
+  height:200px;
+}
