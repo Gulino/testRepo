@@ -22,7 +22,6 @@ main {
   grid-template-areas: "col1 col2";
   grid-template-rows: 1fr;
   grid-template-columns: 5fr 6fr;
-
 }
 
 nav {
@@ -119,4 +118,14 @@ footer {
   padding-top: 50px;
   grid-area: footer;
   text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 20px;
+  }
+
+.grid img {
+  max-width: 100%;
 }
