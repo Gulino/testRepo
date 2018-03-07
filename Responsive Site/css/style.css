@@ -35,7 +35,7 @@ nav {
 nav ul li{
   list-style: none;
   display: inline-block;
-  padding-right: 60px;
+  padding-right: 80px;
   padding-bottom: 50px;
 
 }
@@ -43,31 +43,36 @@ nav ul li{
 
 nav ul li a{
   text-decoration: none;
-  color: #2d2d86;
+  font-family: 'PT Sans', sans-serif;
 }
 
 nav ul li a:hover{
-  color: black;
+color: #2d2d86;
 }
+
+
 
 h1{
   padding-right: 30px;
-  
+  font-family: 'Source Code Pro', monospace;
+  font-size: 50px;
+
 }
 
 h2{
   text-align: center;
+  font-family: 'Source Code Pro', monospace;
 
 }
 
 h3{
   text-align: center;
+  font-family: 'Source Code Pro', monospace;
 }
 
 img{
-  padding-bottom: 20px;
+  padding-bottom: 40px;
   padding-right: 10px;
-  padding-bottom: 20px;
 }
 
 #col1 {
@@ -102,11 +107,16 @@ a:hover {
 
 }
 
+p {
+  font-family: 'PT Sans', sans-serif;
+}
+
 address{
   font-style: italic;
 }
 
 footer {
+  padding-top: 50px;
   grid-area: footer;
   text-align: center;
 }
