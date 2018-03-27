@@ -9,11 +9,21 @@ h1 {
    top: 90px;
    left: 0;
    width: 100%;
-   font-family: 'BioRhyme', serif;
-   font-size: 55px;
+   font-family: 'Arvo', serif;
+   font-size: 60px;
    color: white;
 }
 
+h2{
+  font-family: 'Karla', sans-serif;
+  font-size: 35px;
+}
+
+h3{
+  font-family: 'Karla', sans-serif;
+  font-size: 25px;
+
+}
 
 body{
   text-align: center;
@@ -59,6 +69,16 @@ body{
     border-radius: 7px
 }
 
+.sectiontip{
+  margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    border: 2px solid #cc6666;
+    border-radius: 7px
+
+}
+
 .section5{
   background-color: #c65353;
   margin-top: 100px;
@@ -71,4 +91,26 @@ body{
 
 ul{
   list-style-type: none;
+  font-family: 'Dosis', sans-serif;
+}
+
+p{
+  font-family: 'Dosis', sans-serif;
+
+}
+
+
+button {
+  padding: 10px;
+  font-size: 20px;
+}
+
+#show {
+background-color: green;
+}
+
+#hide{
+  background-color: red;
+
+
 }
