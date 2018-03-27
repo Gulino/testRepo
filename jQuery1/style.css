@@ -30,72 +30,65 @@ body{
 }
 
 .section1{
-  background-color: #df9f9f;
+
   margin-top: 100px;
     margin-bottom: 100px;
     margin-right: 150px;
     margin-left: 80px;
-    border: 2px solid #df9f9f;
+    border-style: outset;
     border-radius: 7px
 }
 
 .section2{
-  background-color: #d98c8c;
+
   margin-top: 100px;
     margin-bottom: 100px;
     margin-right: 150px;
     margin-left: 80px;
-    border: 2px solid #d98c8c;
+    border-style: outset;
     border-radius: 7px;
 }
 
 .section3{
-  background-color: #d27979;
+
   margin-top: 100px;
     margin-bottom: 100px;
     margin-right: 150px;
     margin-left: 80px;
-    border: 2px solid #d27979;
+    border-style: outset;
     border-radius: 7px;
 }
 
 .section4{
-  background-color: #cc6666;
+
   margin-top: 100px;
     margin-bottom: 100px;
     margin-right: 150px;
     margin-left: 80px;
-    border: 2px solid #cc6666;
+    border-style: outset;
     border-radius: 7px
 }
 
-.sectiontip{
-  margin-top: 100px;
-    margin-bottom: 100px;
-    margin-right: 150px;
-    margin-left: 80px;
-    border: 2px solid #cc6666;
-    border-radius: 7px
-
-}
 
 .section5{
-  background-color: #c65353;
+
   margin-top: 100px;
     margin-bottom: 100px;
     margin-right: 150px;
     margin-left: 80px;
-    border: 2px solid #c65353;
+  border-style: outset;
     border-radius: 7px
 }
 
 ul{
   list-style-type: none;
   font-family: 'Dosis', sans-serif;
+  font-size: 18px;
 }
 
 p{
   font-family: 'Dosis', sans-serif;
+  font-size: 18px;
 
 }
 
@@ -106,11 +99,26 @@ button {
 }
 
 #show {
-background-color: green;
+background-color: #33cc33;
+border-radius: 7px;
 }
 
 #hide{
-  background-color: red;
+  background-color: #ff1a1a;
+border-radius: 7px;
 
+}
 
+#p{
+  font-weight: bold;
+}
+
+#replace{
+  font-weight: bold;
+
+}
+
+#button{
+  color: white;
+  background-color: #ff1a1a;
 }
