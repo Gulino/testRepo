@@ -16,13 +16,15 @@ $(document).ready(function(){
 
 
        $("h1").mouseenter(function(){
-         $("h1").css("color", "black");
+         $("h1").css("color", "#ccccff");
          $("h1").mouseleave(function(){
         $("h1").css("color", "white");
     });
 });
 
-
+$("button").click(function(){
+        $(".container").toggle(1000);
+    });
 
 
 
